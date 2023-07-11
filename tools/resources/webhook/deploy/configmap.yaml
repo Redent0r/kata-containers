@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: kata-webhook
+data:
+  cpu_limit: "1"
+  memory_limit: "1Gi"
